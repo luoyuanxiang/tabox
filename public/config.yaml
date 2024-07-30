@@ -5,7 +5,7 @@ Config:
   # 网页标题
   title: Tabox
   # 网站图标
-  logo: https://luoyuanxiang.top/assets/img/favicon.ico
+  logo: avatar.jpg
   # 图标跳转
   link: https://luoyuanxiang.top/tabox
 
@@ -62,33 +62,30 @@ Tabox:
     Weibo:
       - https://weibo.com/
       - 微博社交平台
+    CSDN:
+      - https://blog.csdn.net/
+      - CSDN博客
 
   # 标签组
   Website:
     logo: https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg
     description: 我的网站
 
-    Home:
-      - https://www.fzf404.art/
-      - 我的首页
-    Monit:
-      - https://monit.fzf404.art/
-      - 桌面小组件
-    Sedom:
-      - https://sedom.fzf404.art/
-      - 极简样式库
-    Pixxel:
-      - https://px.fzf404.art/
-      - 像素画工具
     Blog:
-      - https://blog.fzf404.art/
-      - 写作博客
+      - https://luoyuanxiang.top
+      - 我的博客
+    Tabox:
+      - https://luoyuanxiang.top/tabox
+      - 标签页
+    Qexo:
+      - https://qexo.luoyuanxiang.top
+      - 后台管理
 
   Github: # github 配置
     logo: https://cdn.worldvectorlogo.com/logos/excel-4.svg
     description: 我的代码仓库
 
-    name: fzf404 # 用户名
+    name: luoyuanxiang # 用户名
 
     # 仓库忽略
     Ignore:

@@ -264,7 +264,7 @@ export default function App() {
             }}>
             <Space size="middle">
               {/* Github */}
-              <a href="https://github.com/fzf404/Tabox" target="_blank" rel="noreferrer">
+              <a href="https://github.com/luoyuanxiang/tabox" target="_blank" rel="noreferrer">
                 <GithubFilled style={{ color: '#fff' }} />
               </a>
               {/* 设置 */}
@@ -554,8 +554,8 @@ export default function App() {
         </Content>
         <Footer style={{ textAlign: 'center' }}>
           Tabox {new Date().getFullYear()} © By{' '}
-          <a target="_blank" href="https://www.fzf404.art/" rel="noreferrer">
-            fzf404
+          <a target="_blank" href="https://www.luoyuanxiang.top/" rel="noreferrer">
+            罗远祥
           </a>
         </Footer>
       </Layout>
