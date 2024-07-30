@@ -5,9 +5,9 @@ Config:
   # 网页标题
   title: Tabox
   # 网站图标
-  logo: favicon.ico
+  logo: https://luoyuanxiang.top/assets/img/favicon.ico
   # 图标跳转
-  link: https://luoyuanxiang.top
+  link: https://luoyuanxiang.top/tabox
 
 # 搜索列表
 Search:
