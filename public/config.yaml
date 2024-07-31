@@ -15,8 +15,9 @@ Search:
   Normal:
     Google: https://www.google.com/search?q=
     Baidu: https://www.baidu.com/s?wd=
-    DuckGo: https://duckduckgo.com/?q=
-    Translate: https://translate.google.com/?text=
+    Bing: https://www.bing.com/search?q=
+    Translate: https://fanyi.baidu.com/mtpe-individual/multimodal?query=
+
 
   Code:
     Github: https://github.com/search?q=
@@ -105,9 +106,6 @@ Tabox:
     Colab:
       - https://colab.research.google.com
       - 免费云计算
-    EDA:
-      - https://lceda.cn/editor
-      - 立创 EDA
     MSDN:
       - https://msdn.itellyou.cn
       - 系统镜像
@@ -133,13 +131,10 @@ Tabox:
     Runoob:
       - https://www.runoob.com/
       - 菜鸟教程
-    Electron:
-      - https://www.electronjs.org/zh/
-      - Electron 文档
+    Java:
+      - https://pdai.tech/
+      - Java 全栈知识体系
       - https://www.electronjs.org/assets/img/logo.svg
-    MDN:
-      - https://developer.mozilla.org/
-      - MDN 文档
     Vue:
       - https://cn.vuejs.org/
       - Vue 文档
@@ -147,6 +142,9 @@ Tabox:
     Yuque:
       - https://www.yuque.com
       - 文档平台
+    Tools:
+      - https://tool.lu/
+      - 在线工具
 
   Memo: # 备忘录
     logo: https://cdn.worldvectorlogo.com/logos/microsoft-teams-1.svg
