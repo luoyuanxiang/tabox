@@ -168,8 +168,8 @@ export default function App() {
   // 内容处理
     const getDescription = description => {
         return description
-            ? description.length > 26
-                ? description.substring(0, 24) + '..'
+            ? description.length > 7
+                ? description.substring(0, 5) + '..'
                 : description
             : null
     }
@@ -491,7 +491,7 @@ export default function App() {
                                   <Col key={githubItem.name}>
                                     {/* 仓库信息 */}
                                     <a href={githubItem.html_url} target="_blank" rel="noreferrer">
-                                      <Card size="small" hoverable style={{ width: '12rem', minHeight: '5.4rem' }}>
+                                      <Card size="small" hoverable style={{ width: '10rem' }}>
                                         <Meta
                                           className="github"
                                           // 仓库名称
