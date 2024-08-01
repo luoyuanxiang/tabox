@@ -28,6 +28,9 @@ Search:
     Bilibili: https://search.bilibili.com/all?keyword=
     Juejin: https://juejin.im/search?query=
     Zhihu: https://www.zhihu.com/search?q=
+    StackOverflow: https://stackoverflow.com/search?q=
+    Kaifa: https://kaifa.baidu.com/searchPage?wd=
+    Fofa: https://fofa.info/result?qbase64=
 
   Tools:
     Choco: https://chocolatey.org/packages?q=
@@ -121,6 +124,40 @@ Tabox:
       - https://hub.docker.com
       - Docker 仓库
       - https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/docker.svg
+    ProcessOn:
+      - https://www.processon.com/
+      - 免费在线流程图思维导图
+    HDmoli:
+      - https://www.hdmoli.pro/
+      - HDmoli在线视频
+    Vercel:
+      - https://vercel.com/
+      - Vercel
+    Surfboard:
+      - https://getsurfboard.org/surfboard-download/
+      - Surfboard 下载
+    阿里云邮箱:
+      - https://alimail.console.aliyun.com/
+      - 阿里云邮箱
+    Diagrams:
+      - https://app.diagrams.net/
+      - 思维导图
+    ZZZMH:
+      - https://bz.zzzmh.cn/index
+      - 极简壁纸
+    ZiXiaoYun:
+      - https://zixiaoyun.com/
+      - 薄荷图床 - 图片、文档、音视频转链接
+    ktLogo:
+      - https://tools.kalvinbg.cn/convenience/icon
+      - ktLogo
+    WallHaven:
+      - https://wallhaven.cc/
+      - 壁纸
+    Natapp:
+      - https://natapp.cn/
+      - 开启您的内网穿透之旅
+
 
   Docs:
     logo: https://cdn.worldvectorlogo.com/logos/word-1.svg
@@ -142,6 +179,66 @@ Tabox:
     Tools:
       - https://tool.lu/
       - 在线工具
+    Git提交规范:
+      - https://zhuanlan.zhihu.com/p/67804026
+      - Git提交规范
+    MySQL日期集合:
+      - https://blog.csdn.net/qierkang/article/details/108244337?spm=1001.2014.3001.5501
+      - MYSQL日期集合查询今天、昨天、本周、本月、上月 、本年、本季
+    京东装机大师:
+      - https://diy.jd.com/#/recommend
+      - 京东装机大师
+    Hello算法:
+      - https://www.hello-algo.com/
+      - Hello 算法
+    Bugstack:
+      - https://bugstack.cn/
+      - 小傅哥 bugstack 虫洞栈
+    Nginx:
+      - https://www.nginx.cn/doc/index.html
+      - Nginx 中文文档
+    JVM:
+      - https://blog.csdn.net/lovewebeye/article/details/80911838
+      - JAVA(-Xms,Xmx,Xmn-XX:newSize,-XX:MaxnewSize,-XX:PermSize,-XX:MaxPermSize)区别
+    SpringBoot:
+      - https://worktile.com/kb/ask/832138.html
+      - spring怎么重新初始化bean
+    NodeSeek:
+      - https://www.nodeseek.com/
+      - NodeSeek
+    项目:
+      - https://blog.csdn.net/lqzkcx3/article/details/122641111
+      - SpringBoot项目下实现动态化静态文件路径注册
+    MyBatis:
+      - https://blog.csdn.net/m0_37317159/article/details/82986085
+      - Mybatis中进行批量更新（updateBatch）
+    ElasticSearch:
+      - https://blog.csdn.net/csdn_20150804/article/details/105618933
+      - ElasticSearch系列（六）springboot中使用QueryBuilders、NativeSearchQuery实现复杂查询
+    Quarkus:
+      - https://quarkus.io/
+      - 超音速亚原子 Java
+    JetBrains:
+      - https://r86oxhhvu2.feishu.cn/docs/doccnfISWDcrZshg7ZA9TivqNYc
+      - JetBrains 官方正版账号，全家桶全版本全平台都可激活
+    WdByte:
+      - https://www.wdbyte.com/
+      - 未读代码
+    Screw:
+      - https://gitee.com/leshalv/screw
+      - 简洁好用的数据库表结构文档生成工具
+    EasyEs:
+      - https://www.easy-es.cn/
+      - 快速开发Elasticsearch
+    DBTutorial:
+      - https://dunwu.github.io/db-tutorial/
+      - 数据库教程
+    Likepoems:
+      - https://api.likepoems.com/
+      - 如诗，API接口文档
+    Jinrishici:
+      - https://www.jinrishici.com/
+      - 今日诗词
 
   Memo: # 备忘录
     logo: https://cdn.worldvectorlogo.com/logos/microsoft-teams-1.svg
