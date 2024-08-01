@@ -123,6 +123,7 @@ Tabox:
     Docker:
       - https://hub.docker.com
       - Docker 仓库
+      - https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/docker.svg
 
   Docs:
     logo: https://cdn.worldvectorlogo.com/logos/word-1.svg
