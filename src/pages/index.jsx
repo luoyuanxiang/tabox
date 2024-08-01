@@ -25,6 +25,7 @@ import {
   Spin,
   Switch,
   Typography,
+  Tooltip
 } from 'antd'
 
 // 图标
@@ -168,8 +169,8 @@ export default function App() {
   // 内容处理
     const getDescription = description => {
         return description
-            ? description.length > 7
-                ? description.substring(0, 5) + '..'
+            ? description.length > 8
+                ? description.substring(0, 6) + '..'
                 : description
             : null
     }
@@ -491,7 +492,8 @@ export default function App() {
                                   <Col key={githubItem.name}>
                                     {/* 仓库信息 */}
                                     <a href={githubItem.html_url} target="_blank" rel="noreferrer">
-                                      <Card size="small" hoverable style={{ width: '10rem' }}>
+                                      <Tooltip title={githubItem.description} >
+                                      <Card size="small" hoverable style={{ width: '10rem', minHeight: '4rem' }}>
                                         <Meta
                                           className="github"
                                           // 仓库名称
@@ -506,6 +508,7 @@ export default function App() {
                                           description={getDescription(githubItem.description)}
                                         />
                                       </Card>
+                                      </Tooltip>
                                     </a>
                                   </Col>
                                 )
@@ -531,7 +534,8 @@ export default function App() {
                             <Col key={boxKey}>
                               {/* 标签内容 */}
                               <a href={tabItem[0]} target="_blank" rel="noreferrer">
-                                <Card size="small" hoverable style={{ width: '10rem' }}>
+                                <Tooltip title={tabItem[1]} >
+                                <Card size="small" hoverable style={{ width: '10rem', minHeight: '4rem' }}>
                                   <Meta
                                     // 标签标题
                                     title={boxKey}
@@ -541,6 +545,7 @@ export default function App() {
                                     description={getDescription(tabItem[1])}
                                   />
                                 </Card>
+                                  </Tooltip>
                               </a>
                             </Col>
                           ) : null

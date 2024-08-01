@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "tabox",
   "scripts": {
-    "dev": "react-scripts start",
+    "tabox": "react-scripts start",
     "build": "react-scripts build"
   },
   "dependencies": {
