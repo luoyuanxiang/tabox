@@ -37,7 +37,7 @@ Search:
 Tabox:
   # 标签组
   Common:
-    logo: https://cdn.worldvectorlogo.com/logos/command-1.svg
+    logo: https://cdn.worldvectorlogo.com/logos/onenote-2.svg
     description: 常用网站
 
     BiliBili:
@@ -83,7 +83,7 @@ Tabox:
       - 后台管理
 
   Github: # github 配置
-    logo: https://cdn.worldvectorlogo.com/logos/github-icon.svg
+    logo: https://cdn.worldvectorlogo.com/logos/github-icon-2.svg
     description: 我的代码仓库
 
     name: luoyuanxiang # 用户名
