@@ -37,7 +37,7 @@ Search:
 Tabox:
   # 标签组
   Common:
-    logo: https://cdn.worldvectorlogo.com/logos/onenote-2.svg
+    logo: https://cdn.worldvectorlogo.com/logos/command-1.svg
     description: 常用网站
 
     BiliBili:
@@ -69,7 +69,7 @@ Tabox:
 
   # 标签组
   Website:
-    logo: https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg
+    logo: https://cdn.worldvectorlogo.com/logos/website.svg
     description: 我的网站
 
     Blog:
@@ -83,7 +83,7 @@ Tabox:
       - 后台管理
 
   Github: # github 配置
-    logo: https://cdn.worldvectorlogo.com/logos/excel-4.svg
+    logo: https://cdn.worldvectorlogo.com/logos/github-icon.svg
     description: 我的代码仓库
 
     name: luoyuanxiang # 用户名
@@ -94,7 +94,7 @@ Tabox:
       - tduck-front
 
   Tools:
-    logo: https://cdn.worldvectorlogo.com/logos/outlook-1.svg
+    logo: https://cdn.worldvectorlogo.com/logos/google-webmaster-tools.svg
     description: 实用网站
 
     Tencent:
@@ -103,9 +103,6 @@ Tabox:
     CDN:
       - https://dash.cloudflare.com/
       - 网站加速
-    Colab:
-      - https://colab.research.google.com
-      - 免费云计算
     MSDN:
       - https://msdn.itellyou.cn
       - 系统镜像
@@ -126,7 +123,7 @@ Tabox:
       - https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/docker.svg
 
   Docs:
-    logo: https://cdn.worldvectorlogo.com/logos/word-1.svg
+    logo: https://cdn.worldvectorlogo.com/logos/google-docs-icon-2.svg
     description: 开发工具
 
     Runoob:
