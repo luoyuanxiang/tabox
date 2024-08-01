@@ -20,3 +20,9 @@ body {
 .github .ant-card-meta-avatar {
   padding: 0 8px 0 0;
 }
+.ant-card-body {
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow:ellipsis;
+}
