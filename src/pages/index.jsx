@@ -169,8 +169,8 @@ export default function App() {
   // 内容处理
     const getDescription = description => {
         return description
-            ? description.length > 8
-                ? description.substring(0, 6) + '..'
+            ? description.length > 6
+                ? description.substring(0, 4) + '..'
                 : description
             : null
     }
@@ -410,7 +410,7 @@ export default function App() {
               style={{ margin: '1rem 0' }}
               onSearch={(key) => {
                 // 打开网页
-                open(config.json.Search[search.checkedMenu][search.checkedKeys] + key)
+                open(config.json.Search[search.checkedMenu][search.checkedKeys] + (search.checkedKeys === 'Fofa' ? btoa(String.fromCharCode(...new TextEncoder().encode(key))) : key))
               }}
             />
             {/* 搜索范围 */}
@@ -562,7 +562,7 @@ export default function App() {
         </Content>
         <Footer style={{ textAlign: 'center' }}>
           Tabox {new Date().getFullYear()} © By{' '}
-          <a target="_blank" href="https://www.luoyuanxiang.top/" rel="noreferrer">
+          <a target="_blank" href="https://luoyuanxiang.top/" rel="noreferrer">
             罗远祥
           </a>
         </Footer>

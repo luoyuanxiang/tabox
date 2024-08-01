@@ -12,29 +12,25 @@ Config:
 # 搜索列表
 Search:
   # 搜索组
-  Normal:
+  搜索:
+    Bing: https://www.bing.com/search?q=
     Google: https://www.google.com/search?q=
     Baidu: https://www.baidu.com/s?wd=
-    Bing: https://www.bing.com/search?q=
     Translate: https://fanyi.baidu.com/mtpe-individual/multimodal?query=
 
 
-  Code:
+  代码:
     Github: https://github.com/search?q=
     NPM: https://www.npmjs.com/search?q=
     Docker: https://hub.docker.com/search?q=
 
-  Community:
+  社区:
     Bilibili: https://search.bilibili.com/all?keyword=
     Juejin: https://juejin.im/search?query=
     Zhihu: https://www.zhihu.com/search?q=
     StackOverflow: https://stackoverflow.com/search?q=
     Kaifa: https://kaifa.baidu.com/searchPage?wd=
     Fofa: https://fofa.info/result?qbase64=
-
-  Tools:
-    Choco: https://chocolatey.org/packages?q=
-    Greasyfork: https://greasyfork.org/zh-CN/scripts?q=
 
 # 标签列表
 Tabox:
@@ -84,17 +80,6 @@ Tabox:
     Qexo:
       - https://qexo.luoyuanxiang.top
       - 后台管理
-
-  Github: # github 配置
-    logo: https://cdn.worldvectorlogo.com/logos/excel-4.svg
-    description: 我的代码仓库
-
-    name: luoyuanxiang # 用户名
-
-    # 仓库忽略
-    Ignore:
-      - nest-template
-      - tduck-front
 
   Tools:
     logo: https://cdn.worldvectorlogo.com/logos/outlook-1.svg
@@ -157,6 +142,51 @@ Tabox:
     Natapp:
       - https://natapp.cn/
       - 开启您的内网穿透之旅
+    Tools:
+      - https://tool.lu/
+      - 在线工具
+    Tinypng:
+      - https://tinypng.com/
+      - 压缩图片
+    MyHkw:
+      - https://myhkw.cn/
+      - 音乐播放平台
+    JDK:
+      - https://adoptium.net/zh-CN/temurin/releases/
+      - JDK 下载平台
+    Hitokoto:
+      - https://developer.hitokoto.cn/
+      - 随机一言
+    DynamicTP:
+      - https://dynamictp.cn/
+      - 🔥🔥🔥 基于配置中心的轻量级动态可监控线程池
+    BaiduAi:
+      - https://inspiration.baidu.com/app?source=aisearch&isNewPage=0
+      - 灵感中心
+    Canva:
+      - https://www.canva.cn/
+      - 画图
+    Shields:
+      - https://shields.io/
+      - 动态徽章
+    Redis:
+      - https://console.upstash.com/redis
+      - 免费Redis
+    Moeyy:
+      - https://github.moeyy.xyz/
+      - GitHub 加速下载文件
+    Yizhihongxing:
+      - https://order.yizhihongxing.org/
+      - 一枝红杏 出墙来
+    Gnomic:
+      - https://www.gnomic.cn/agentCenter/index?aixuanfeng
+      - 智能体
+    Uestcedu:
+      - https://sso-idp.uestcedu.com/login
+      - 电子科技大学登录
+    BigAirport:
+      - https://bigairport-mirror.com/
+      - 大机场 Official Mirror Site
 
 
   Docs:
@@ -176,9 +206,6 @@ Tabox:
     Yuque:
       - https://www.yuque.com
       - 文档平台
-    Tools:
-      - https://tool.lu/
-      - 在线工具
     Git提交规范:
       - https://zhuanlan.zhihu.com/p/67804026
       - Git提交规范
@@ -239,6 +266,43 @@ Tabox:
     Jinrishici:
       - https://www.jinrishici.com/
       - 今日诗词
+    JAVA后端架构师:
+      - https://www.processon.com/view/link/61b2313b0e3e74683770741d
+      - JAVA后端架构师
+    SpringCloud:
+      - https://springcloud.fun/
+      - SpringCloud
+    EMQX:
+      - https://docs.emqx.com/zh/emqx/latest/deploy/cluster/lb-nginx.html
+      - 用 NGINX 负载均衡 EMQX 集群
+    JTT808:
+      - https://jtst.mot.gov.cn/kfs/file/read/8736c9f4c7448cf07f643aa1c3cd6a76
+      - JTT808
+    PaddleOCR:
+      - https://gitee.com/duolabmeng666/paddlehub_ppocr
+      - 基于 Serverless 架构部署通用文字识别 PaddleOCR
+    Jenkins:
+      - https://www.cnblogs.com/MarlonKang/p/15113394.html
+      - window10平台运行jenkins.war的插件安装失败的解决
+    Pig4cloudVip:
+      - https://www.pig4cloud.com/data/doc/pigx/
+      - pig4cloud 文档
+    GmsslNginx:
+      - https://github.com/wojiushixiaobai/gmssl_nginx
+      - 国密 SSL 配置
+    Pig4cloud:
+      - https://geekdaxue.co/read/pig4cloud@pig/lceu0v
+      - pig4cloud 文档
+
+
+  Github: # github 配置
+    logo: https://cdn.worldvectorlogo.com/logos/excel-4.svg
+    description: 我的代码仓库
+    name: luoyuanxiang # 用户名
+    # 仓库忽略
+    Ignore:
+      - nest-template
+      - tduck-front
 
   Memo: # 备忘录
     logo: https://cdn.worldvectorlogo.com/logos/microsoft-teams-1.svg
