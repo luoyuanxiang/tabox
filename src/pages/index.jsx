@@ -165,6 +165,15 @@ export default function App() {
     return logo ? logo : new URL(url).origin + '/favicon.ico'
   }
 
+  // 内容处理
+    const getDescription = description => {
+        return description
+            ? description.length > 26
+                ? description.substring(0, 24) + '..'
+                : description
+            : null
+    }
+
   // 重置设置
   const reset = () => {
     localStorage.clear()
@@ -494,13 +503,7 @@ export default function App() {
                                             </span>
                                           }
                                           // 仓库描述
-                                          description={
-                                            githubItem.description
-                                              ? githubItem.description.length > 26
-                                                ? githubItem.description.substring(0, 24) + '..'
-                                                : githubItem.description
-                                              : null
-                                          }
+                                          description={getDescription(githubItem.description)}
                                         />
                                       </Card>
                                     </a>
@@ -535,7 +538,7 @@ export default function App() {
                                     // 标签头像
                                     avatar={<Avatar shape="square" src={getICO(tabItem[2], tabItem[0])} />}
                                     // 标签描述
-                                    description={tabItem[1]}
+                                    description={getDescription(tabItem[1])}
                                   />
                                 </Card>
                               </a>
