@@ -39,6 +39,23 @@ Tabox:
     logo: https://cdn.worldvectorlogo.com/logos/onenote-2.svg
     description: 常用网站
 
+    Java:
+      - https://pdai.tech/
+      - Java 全栈知识体系
+    Hello算法:
+      - https://www.hello-algo.com/
+      - Hello 算法
+      - https://www.hello-algo.com/assets/images/favicon.png
+    Tools:
+      - https://tool.lu/
+      - 在线工具
+    WdByte:
+      - https://www.wdbyte.com/
+      - 未读代码
+      - https://www.wdbyte.com/static/fav.png
+    Bugstack:
+      - https://bugstack.cn/
+      - 小傅哥 bugstack 虫洞栈
     BiliBili:
       - https://www.bilibili.com/
       - 年轻人的平台
@@ -53,6 +70,7 @@ Tabox:
     Juejin:
       - https://juejin.cn/
       - 掘金技术社区
+      - https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/apple-touch-icon.png
     Amap:
       - https://ditu.amap.com/
       - 高德地图
@@ -67,23 +85,25 @@ Tabox:
       - CSDN博客
 
   # 标签组
-  Website:
-    logo: https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg
-    description: 我的网站
-
-    Blog:
-      - https://luoyuanxiang.top
-      - 我的博客
-    Tabox:
-      - https://luoyuanxiang.top/tabox
-      - 标签页
-    Qexo:
-      - https://qexo.luoyuanxiang.top
-      - 后台管理
+#  Website:
+#    logo: https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg
+#    description: 我的网站
+#
+#    Blog:
+#      - https://luoyuanxiang.top
+#      - 我的博客
+#    Tabox:
+#      - https://luoyuanxiang.top/tabox
+#      - 标签页
+#    Qexo:
+#      - https://qexo.luoyuanxiang.top
+#      - 后台管理
+#      - https://unpkg.com/qexo-static@2.4.0/qexo/images/icon.png
 
   Tools:
     logo: https://cdn.worldvectorlogo.com/logos/outlook-1.svg
     description: 实用网站
+
 
     Tencent:
       - https://console.cloud.tencent.com/
@@ -124,6 +144,7 @@ Tabox:
     阿里云邮箱:
       - https://alimail.console.aliyun.com/
       - 阿里云邮箱
+      - https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
     Diagrams:
       - https://app.diagrams.net/
       - 思维导图
@@ -142,18 +163,17 @@ Tabox:
     Natapp:
       - https://natapp.cn/
       - 开启您的内网穿透之旅
-    Tools:
-      - https://tool.lu/
-      - 在线工具
     Tinypng:
       - https://tinypng.com/
       - 压缩图片
+      - https://tinypng.com/images/favicon.ico
     MyHkw:
       - https://myhkw.cn/
       - 音乐播放平台
     JDK:
       - https://adoptium.net/zh-CN/temurin/releases/
       - JDK 下载平台
+      - https://adoptium.net/favicon-32x32.png
     Hitokoto:
       - https://developer.hitokoto.cn/
       - 随机一言
@@ -172,6 +192,7 @@ Tabox:
     Redis:
       - https://console.upstash.com/redis
       - 免费Redis
+      - https://console.upstash.com/static/icons/apple-touch-icon.png
     Moeyy:
       - https://github.moeyy.xyz/
       - GitHub 加速下载文件
@@ -181,9 +202,11 @@ Tabox:
     Gnomic:
       - https://www.gnomic.cn/agentCenter/index?aixuanfeng
       - 智能体
+      - https://buff8.oss-cn-shanghai.aliyuncs.com/sublime_words/logo_1.png
     Uestcedu:
       - https://sso-idp.uestcedu.com/login
       - 电子科技大学登录
+      - https://sso.uestcedu.com/cdn.yufuid.com/images/appearance/tn-c7cc65570ae049878a7e9d3ea4215121-1668416206619.png
     BigAirport:
       - https://bigairport-mirror.com/
       - 大机场 Official Mirror Site
@@ -196,9 +219,6 @@ Tabox:
     Runoob:
       - https://www.runoob.com/
       - 菜鸟教程
-    Java:
-      - https://pdai.tech/
-      - Java 全栈知识体系
     Vue:
       - https://cn.vuejs.org/
       - Vue 文档
@@ -215,12 +235,7 @@ Tabox:
     京东装机大师:
       - https://diy.jd.com/#/recommend
       - 京东装机大师
-    Hello算法:
-      - https://www.hello-algo.com/
-      - Hello 算法
-    Bugstack:
-      - https://bugstack.cn/
-      - 小傅哥 bugstack 虫洞栈
+      - //storage.360buyimg.com/dlxt/master-of-loader-pc/64eb21e/favicon.ico
     Nginx:
       - https://www.nginx.cn/doc/index.html
       - Nginx 中文文档
@@ -230,10 +245,12 @@ Tabox:
     SpringBoot:
       - https://worktile.com/kb/ask/832138.html
       - spring怎么重新初始化bean
+      - https://cdn-kb.worktile.com/kb/wp-content/uploads/2022/02/cropped-200-200.jpg
     NodeSeek:
       - https://www.nodeseek.com/
       - NodeSeek
-    项目:
+      - https://www.nodeseek.com/static/image/favicon/favicon-32x32.png
+    SpringBoot项目下实现动态化静态文件路径注册:
       - https://blog.csdn.net/lqzkcx3/article/details/122641111
       - SpringBoot项目下实现动态化静态文件路径注册
     MyBatis:
@@ -248,9 +265,7 @@ Tabox:
     JetBrains:
       - https://r86oxhhvu2.feishu.cn/docs/doccnfISWDcrZshg7ZA9TivqNYc
       - JetBrains 官方正版账号，全家桶全版本全平台都可激活
-    WdByte:
-      - https://www.wdbyte.com/
-      - 未读代码
+      - //lf-scm-cn.feishucdn.com/ccm/pc/web/resource/bear/src/common/assets/favicons/icon_file_doc_nor-256x256.5ecc0ce2486516290b43.png
     Screw:
       - https://gitee.com/leshalv/screw
       - 简洁好用的数据库表结构文档生成工具
