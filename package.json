@@ -2,7 +2,7 @@
   "name": "tabox",
   "version": "1.0.0",
   "private": true,
-  "homepage": "",
+  "homepage": "tabox",
   "scripts": {
     "tabox": "react-scripts start",
     "build": "react-scripts build"
