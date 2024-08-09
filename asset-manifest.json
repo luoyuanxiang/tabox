@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tabox/static/css/main.92423d77.css",
-    "main.js": "/tabox/static/js/main.654582c0.js",
+    "main.js": "/tabox/static/js/main.570e6118.js",
     "index.html": "/tabox/index.html",
     "main.92423d77.css.map": "/tabox/static/css/main.92423d77.css.map",
-    "main.654582c0.js.map": "/tabox/static/js/main.654582c0.js.map"
+    "main.570e6118.js.map": "/tabox/static/js/main.570e6118.js.map"
   },
   "entrypoints": [
     "static/css/main.92423d77.css",
-    "static/js/main.654582c0.js"
+    "static/js/main.570e6118.js"
   ]
 }

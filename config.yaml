@@ -5,32 +5,32 @@ Config:
   # 网页标题
   title: Tabox
   # 网站图标
-  logo: https://luoyuanxiang.top/assets/img/favicon.ico
+  logo: avatar.jpg
   # 图标跳转
   link: https://luoyuanxiang.top/tabox
 
 # 搜索列表
 Search:
   # 搜索组
-  Normal:
+  搜索:
+    Bing: https://www.bing.com/search?q=
     Google: https://www.google.com/search?q=
     Baidu: https://www.baidu.com/s?wd=
-    DuckGo: https://duckduckgo.com/?q=
-    Translate: https://translate.google.com/?text=
+    Translate: https://fanyi.baidu.com/mtpe-individual/multimodal?query=
 
-  Code:
+
+  代码:
     Github: https://github.com/search?q=
     NPM: https://www.npmjs.com/search?q=
     Docker: https://hub.docker.com/search?q=
 
-  Community:
+  社区:
     Bilibili: https://search.bilibili.com/all?keyword=
     Juejin: https://juejin.im/search?query=
     Zhihu: https://www.zhihu.com/search?q=
-
-  Tools:
-    Choco: https://chocolatey.org/packages?q=
-    Greasyfork: https://greasyfork.org/zh-CN/scripts?q=
+    StackOverflow: https://stackoverflow.com/search?q=
+    Kaifa: https://kaifa.baidu.com/searchPage?wd=
+    Fofa: https://fofa.info/result?qbase64=
 
 # 标签列表
 Tabox:
@@ -39,6 +39,23 @@ Tabox:
     logo: https://cdn.worldvectorlogo.com/logos/onenote-2.svg
     description: 常用网站
 
+    Java:
+      - https://pdai.tech/
+      - Java 全栈知识体系
+    Hello算法:
+      - https://www.hello-algo.com/
+      - Hello 算法
+      - https://www.hello-algo.com/assets/images/favicon.png
+    Tools:
+      - https://tool.lu/
+      - 在线工具
+    WdByte:
+      - https://www.wdbyte.com/
+      - 未读代码
+      - https://www.wdbyte.com/static/fav.png
+    Bugstack:
+      - https://bugstack.cn/
+      - 小傅哥 bugstack 虫洞栈
     BiliBili:
       - https://www.bilibili.com/
       - 年轻人的平台
@@ -53,6 +70,7 @@ Tabox:
     Juejin:
       - https://juejin.cn/
       - 掘金技术社区
+      - https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/apple-touch-icon.png
     Amap:
       - https://ditu.amap.com/
       - 高德地图
@@ -62,42 +80,30 @@ Tabox:
     Weibo:
       - https://weibo.com/
       - 微博社交平台
+    CSDN:
+      - https://blog.csdn.net/
+      - CSDN博客
 
   # 标签组
-  Website:
-    logo: https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg
-    description: 我的网站
-
-    Home:
-      - https://www.fzf404.art/
-      - 我的首页
-    Monit:
-      - https://monit.fzf404.art/
-      - 桌面小组件
-    Sedom:
-      - https://sedom.fzf404.art/
-      - 极简样式库
-    Pixxel:
-      - https://px.fzf404.art/
-      - 像素画工具
-    Blog:
-      - https://blog.fzf404.art/
-      - 写作博客
-
-  Github: # github 配置
-    logo: https://cdn.worldvectorlogo.com/logos/excel-4.svg
-    description: 我的代码仓库
-
-    name: fzf404 # 用户名
-
-    # 仓库忽略
-    Ignore:
-      - nest-template
-      - tduck-front
+#  Website:
+#    logo: https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg
+#    description: 我的网站
+#
+#    Blog:
+#      - https://luoyuanxiang.top
+#      - 我的博客
+#    Tabox:
+#      - https://luoyuanxiang.top/tabox
+#      - 标签页
+#    Qexo:
+#      - https://qexo.luoyuanxiang.top
+#      - 后台管理
+#      - https://unpkg.com/qexo-static@2.4.0/qexo/images/icon.png
 
   Tools:
     logo: https://cdn.worldvectorlogo.com/logos/outlook-1.svg
     description: 实用网站
+
 
     Tencent:
       - https://console.cloud.tencent.com/
@@ -105,12 +111,6 @@ Tabox:
     CDN:
       - https://dash.cloudflare.com/
       - 网站加速
-    Colab:
-      - https://colab.research.google.com
-      - 免费云计算
-    EDA:
-      - https://lceda.cn/editor
-      - 立创 EDA
     MSDN:
       - https://msdn.itellyou.cn
       - 系统镜像
@@ -128,6 +128,99 @@ Tabox:
     Docker:
       - https://hub.docker.com
       - Docker 仓库
+      - https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/docker.svg
+    ProcessOn:
+      - https://www.processon.com/
+      - 免费在线流程图思维导图
+    HDmoli:
+      - https://www.hdmoli.pro/
+      - HDmoli在线视频
+    Vercel:
+      - https://vercel.com/
+      - Vercel
+    Surfboard:
+      - https://getsurfboard.org/surfboard-download/
+      - Surfboard 下载
+    阿里云邮箱:
+      - https://alimail.console.aliyun.com/
+      - 阿里云邮箱
+      - https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
+    Diagrams:
+      - https://app.diagrams.net/
+      - 思维导图
+    ZZZMH:
+      - https://bz.zzzmh.cn/index
+      - 极简壁纸
+    ZiXiaoYun:
+      - https://zixiaoyun.com/
+      - 薄荷图床 - 图片、文档、音视频转链接
+    ktLogo:
+      - https://tools.kalvinbg.cn/convenience/icon
+      - ktLogo
+    WallHaven:
+      - https://wallhaven.cc/
+      - 壁纸
+    Natapp:
+      - https://natapp.cn/
+      - 开启您的内网穿透之旅
+    Tinypng:
+      - https://tinypng.com/
+      - 压缩图片
+      - https://tinypng.com/images/favicon.ico
+    MyHkw:
+      - https://myhkw.cn/
+      - 音乐播放平台
+    JDK:
+      - https://adoptium.net/zh-CN/temurin/releases/
+      - JDK 下载平台
+      - https://adoptium.net/favicon-32x32.png
+    Hitokoto:
+      - https://developer.hitokoto.cn/
+      - 随机一言
+    DynamicTP:
+      - https://dynamictp.cn/
+      - 🔥🔥🔥 基于配置中心的轻量级动态可监控线程池
+    BaiduAi:
+      - https://inspiration.baidu.com/app?source=aisearch&isNewPage=0
+      - 灵感中心
+    Canva:
+      - https://www.canva.cn/
+      - 画图
+    Shields:
+      - https://shields.io/
+      - 动态徽章
+    Redis:
+      - https://console.upstash.com/redis
+      - 免费Redis
+      - https://console.upstash.com/static/icons/apple-touch-icon.png
+    Moeyy:
+      - https://github.moeyy.xyz/
+      - GitHub 加速下载文件
+    Yizhihongxing:
+      - https://order.yizhihongxing.org/
+      - 一枝红杏 出墙来
+    Gnomic:
+      - https://www.gnomic.cn/agentCenter/index?aixuanfeng
+      - 智能体
+      - https://buff8.oss-cn-shanghai.aliyuncs.com/sublime_words/logo_1.png
+    Uestcedu:
+      - https://sso-idp.uestcedu.com/login
+      - 电子科技大学登录
+      - https://sso.uestcedu.com/cdn.yufuid.com/images/appearance/tn-c7cc65570ae049878a7e9d3ea4215121-1668416206619.png
+    BigAirport:
+      - https://bigairport-mirror.com/
+      - 大机场 Official Mirror Site
+    Poi-tl:
+      - http://deepoove.com/poi-tl/
+      - Poi-tl Documentation
+    EMQTT:
+      - https://docs.emqx.com/zh/emqx/latest/performance/tune.html
+      - EMQTT 系统调优
+    Mianshiya:
+      - https://www.mianshiya.com/
+      - 面试鸭刷题神器
+      - https://www.mianshiya.com/_next/image?url=%2Flogo.png&w=32&q=75
+
 
   Docs:
     logo: https://cdn.worldvectorlogo.com/logos/word-1.svg
@@ -136,13 +229,6 @@ Tabox:
     Runoob:
       - https://www.runoob.com/
       - 菜鸟教程
-    Electron:
-      - https://www.electronjs.org/zh/
-      - Electron 文档
-      - https://www.electronjs.org/assets/img/logo.svg
-    MDN:
-      - https://developer.mozilla.org/
-      - MDN 文档
     Vue:
       - https://cn.vuejs.org/
       - Vue 文档
@@ -150,6 +236,98 @@ Tabox:
     Yuque:
       - https://www.yuque.com
       - 文档平台
+    Git提交规范:
+      - https://zhuanlan.zhihu.com/p/67804026
+      - Git提交规范
+    MySQL日期集合:
+      - https://blog.csdn.net/qierkang/article/details/108244337?spm=1001.2014.3001.5501
+      - MYSQL日期集合查询今天、昨天、本周、本月、上月 、本年、本季
+    京东装机大师:
+      - https://diy.jd.com/#/recommend
+      - 京东装机大师
+      - //storage.360buyimg.com/dlxt/master-of-loader-pc/64eb21e/favicon.ico
+    Nginx:
+      - https://www.nginx.cn/doc/index.html
+      - Nginx 中文文档
+    JVM:
+      - https://blog.csdn.net/lovewebeye/article/details/80911838
+      - JAVA(-Xms,Xmx,Xmn-XX:newSize,-XX:MaxnewSize,-XX:PermSize,-XX:MaxPermSize)区别
+    SpringBoot:
+      - https://worktile.com/kb/ask/832138.html
+      - spring怎么重新初始化bean
+      - https://cdn-kb.worktile.com/kb/wp-content/uploads/2022/02/cropped-200-200.jpg
+    NodeSeek:
+      - https://www.nodeseek.com/
+      - NodeSeek
+      - https://www.nodeseek.com/static/image/favicon/favicon-32x32.png
+    SpringBoot项目下实现动态化静态文件路径注册:
+      - https://blog.csdn.net/lqzkcx3/article/details/122641111
+      - SpringBoot项目下实现动态化静态文件路径注册
+    MyBatis:
+      - https://blog.csdn.net/m0_37317159/article/details/82986085
+      - Mybatis中进行批量更新（updateBatch）
+    ElasticSearch:
+      - https://blog.csdn.net/csdn_20150804/article/details/105618933
+      - ElasticSearch系列（六）springboot中使用QueryBuilders、NativeSearchQuery实现复杂查询
+    Quarkus:
+      - https://quarkus.io/
+      - 超音速亚原子 Java
+    JetBrains:
+      - https://r86oxhhvu2.feishu.cn/docs/doccnfISWDcrZshg7ZA9TivqNYc
+      - JetBrains 官方正版账号，全家桶全版本全平台都可激活
+      - //lf-scm-cn.feishucdn.com/ccm/pc/web/resource/bear/src/common/assets/favicons/icon_file_doc_nor-256x256.5ecc0ce2486516290b43.png
+    Screw:
+      - https://gitee.com/leshalv/screw
+      - 简洁好用的数据库表结构文档生成工具
+    EasyEs:
+      - https://www.easy-es.cn/
+      - 快速开发Elasticsearch
+    DBTutorial:
+      - https://dunwu.github.io/db-tutorial/
+      - 数据库教程
+    Likepoems:
+      - https://api.likepoems.com/
+      - 如诗，API接口文档
+    Jinrishici:
+      - https://www.jinrishici.com/
+      - 今日诗词
+    JAVA后端架构师:
+      - https://www.processon.com/view/link/61b2313b0e3e74683770741d
+      - JAVA后端架构师
+    SpringCloud:
+      - https://springcloud.fun/
+      - SpringCloud
+    EMQX:
+      - https://docs.emqx.com/zh/emqx/latest/deploy/cluster/lb-nginx.html
+      - 用 NGINX 负载均衡 EMQX 集群
+    JTT808:
+      - https://jtst.mot.gov.cn/kfs/file/read/8736c9f4c7448cf07f643aa1c3cd6a76
+      - JTT808
+    PaddleOCR:
+      - https://gitee.com/duolabmeng666/paddlehub_ppocr
+      - 基于 Serverless 架构部署通用文字识别 PaddleOCR
+    Jenkins:
+      - https://www.cnblogs.com/MarlonKang/p/15113394.html
+      - window10平台运行jenkins.war的插件安装失败的解决
+    Pig4cloudVip:
+      - https://www.pig4cloud.com/data/doc/pigx/
+      - pig4cloud 文档
+    GmsslNginx:
+      - https://github.com/wojiushixiaobai/gmssl_nginx
+      - 国密 SSL 配置
+    Pig4cloud:
+      - https://geekdaxue.co/read/pig4cloud@pig/lceu0v
+      - pig4cloud 文档
+
+
+  Github: # github 配置
+    logo: https://cdn.worldvectorlogo.com/logos/excel-4.svg
+    description: 我的代码仓库
+    name: luoyuanxiang # 用户名
+    # 仓库忽略
+    Ignore:
+      - nest-template
+      - tduck-front
 
   Memo: # 备忘录
     logo: https://cdn.worldvectorlogo.com/logos/microsoft-teams-1.svg
