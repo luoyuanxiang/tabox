@@ -210,6 +210,16 @@ Tabox:
     BigAirport:
       - https://bigairport-mirror.com/
       - 大机场 Official Mirror Site
+    Poi-tl:
+      - http://deepoove.com/poi-tl/
+      - Poi-tl Documentation
+    EMQTT:
+      - https://docs.emqx.com/zh/emqx/latest/performance/tune.html
+      - EMQTT 系统调优
+    Mianshiya:
+      - https://www.mianshiya.com/
+      - 面试鸭刷题神器
+      - https://www.mianshiya.com/_next/image?url=%2Flogo.png&w=32&q=75
 
 
   Docs:
